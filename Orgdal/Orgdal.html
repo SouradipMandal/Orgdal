@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" class="focus-outline-visible">
+  <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1"></head>
+  <title>Orgdal</title>
+  <style>
+    body {
+      background: #ffffff;
+      margin: 0;
+    }
+    #backgroundImage {
+      border: none;
+      height: 100%;
+      pointer-events: none;
+      position: fixed;
+      top: 0;
+      visibility: hidden;
+      width: 100%;
+    }
+    [show-background-image] #backgroundImage {
+        visibility: visible;
+      }
+      
+    </style>
+  
+ <link type="text/css" rel="stylesheet" href="Orgdal.css">
+ <body id="body">
+   <div id="website_name">Orgdal</div>
+ <div class="Structure" id="screen" >
+ <div class="Structure" id="display" ></div>
+ <div class="Name animate" id="Structure_Name" onmouseover="namesanimation()" onmouseout="namesanimation()">
+ </div>
+ </div>
+ <input class="input animate" id="board" onkeypress="myFunction(event)" onmouseover="input()" onmouseout="input()">
+ <script type="text/javascript" src="Orgdal.js">
+ </script>
+ </body>
+ </html>
