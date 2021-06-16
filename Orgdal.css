@@ -1,0 +1,361 @@
+#body {
+    background: #000000;
+    height: 130vh;
+    width: 218vh;
+}
+.top_margin{display:none;}
+.display_top_margin{width:vh;
+height:10vh;
+border-bottom:1px solid #ffffff;
+top:0vh;}
+
+.website_name {
+    font-family: Copperplate Gothic Light, 'Arial Narrow', Arial, sans-serif,'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    position: absolute;
+    color: red;
+    top: 20vh;
+    left: 95vh;
+}
+.align_upwards_website_name {
+    font-family: Copperplate Gothic Light, 'Arial Narrow', Arial, sans-serif,'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    color: rgb(255, 174, 0);
+    top: 1vh;
+    left: 1vh;
+}
+body .input {
+    outline: none;
+    font-size: 3em;
+    font-family: Copperplate Gothic Light, 'Arial Narrow', Arial, sans-serif,'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    height: 80px;
+    padding: 20px;
+    background: #000000;
+    position: absolute;
+    border-radius: 10px;
+    left: 80vh;
+    top: 50vh;
+    border: 1px solid #6b6b6b;
+    margin: auto;
+    color:#ffffff;
+}
+body .align_upwards {
+    outline: none;
+    font-size: 2em;
+    font-family: Copperplate Gothic Light, 'Arial Narrow', Arial, sans-serif,'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height: 1px;
+    padding: 20px;
+    background: #000000;
+    position: absolute;
+    border-radius: 10px;
+    left: 90vh;
+    top: 1vh;
+    border: 1px solid #6b6b6b;
+    margin: auto;
+    color:#ffffff;
+}
+body .input_hovered {
+    outline: none;
+    font-family: Copperplate Gothic Light,'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    width: 400px;
+    height: 80px;
+    padding: 20px;
+    border: 1px solid #5bccf6;
+    background: #000000;
+    position: absolute;
+    border-radius: 10px;
+    left: 80vh;
+    top: 50vh;
+    margin: auto;
+    color:#ffffff;
+}
+
+#screen {
+    display:flow-root;
+    overflow-y: clip;
+    box-sizing: content-box;
+    margin: auto;
+    background: #000000;
+    height: 60vh;
+    width: 105vh;
+    position: absolute;
+    top: 40vh;
+    left: 65vh;
+    border: 1px solid #6b6b6b;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 100vh;
+    max-width: 105vh;
+}
+
+.Structure {
+    display: none !important;
+}
+.hidden_Name{display:none;
+    margin: auto;
+    max-width: 50vh;}
+#display {
+    margin: auto;
+    background-color: transparent;
+    object-position: center;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.Structure {
+    display: none !important;
+}
+
+.Name {
+    font-family: Copperplate Gothic Light, 'Arial Narrow', Arial, sans-serif,'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    margin: auto;
+    background-color: #2c2c2c;
+    object-position: center;
+    text-align: center;
+    color: #a1a1a1;
+    padding: 2vh;
+    border: 0.1vh solid #5bccf6;
+    width: 30vh;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    border-radius: 10px;
+    max-width: 50vh;
+    max-height: 7vh;
+}
+
+.name_more_info {
+    font-family: Copperplate Gothic Light, 'Arial Narrow', Arial, sans-serif,'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    background-color: #2c2c2c;
+    object-position: center;
+    text-align: center;
+    color: #ffbb00;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    max-width: 50vh;
+    max-height: 9vh;
+    position: absolute;
+    border: 1px solid #5bccf6;
+    top: 5%;
+    right: 2%;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+.collapse
+   {display: none;}
+    .collapse.in {
+        font-family:'Gill Sans MT', Calibri, 'Trebuchet MS' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:2.5vh ;
+    margin: auto;
+    background-color: #2c2c2c;
+    object-position: center;
+    text-align: center;
+    color: #acacac;
+    padding: 0.2vh;
+    border: 1px solid #a3a3a3;
+    width:109vh;
+    height: fit-content;
+    position: absolute;
+    left: 65vh;
+    top:104vh;
+    white-space: normal;
+    border-radius:  10px;
+    }
+    .collapsing{font-family:'Gill Sans MT', Calibri, 'Trebuchet MS' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size:2.5vh ;
+        margin: auto;
+        background-color: #2c2c2c;
+        object-position: center;
+        text-align: center;
+        color: #acacac;
+        padding: 0.2vh;
+        border: 1px solid #a3a3a3;
+        width:109vh;
+        height: fit-content;
+        position: absolute;
+        left: 65vh;
+        top:104vh;
+        white-space: normal;
+        border-radius:  10px;}
+.animate {
+    -webkit-transition: .75s;
+    -moz-transition: .75s;
+    -o-transition: .75s;
+    transition: 0.75s;
+    white-space: normal;
+}
+
+
+
+
+
+@keyframes border_change_back {
+    from {
+        border: 3px solid #5bccf6;
+    }
+
+    to {
+        border: 3px solid #030e12;
+    }
+}
+
+@keyframes border_change {
+    to {
+        border: 3px solid #5bccf6
+    }
+}
+
+polyline#sigma_bonds {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 2.5mm;
+    stroke-linejoin: bevel;
+    stroke-dasharray: 190;
+    stroke-dashoffset: 384;
+    animation: opacityinring 2s forwards, dashring 4s forwards 0s;
+}
+
+@keyframes dashring {
+    to {
+        stroke-dasharray: 345%;
+        stroke-dashoffset: 0px;
+    }
+}
+
+@keyframes opacityinring {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        stroke: white ;
+        opacity: 1;
+    }
+}
+
+polyline#pi_bondA {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 2mm;
+    stroke-linejoin: bevel;
+    stroke-linecap: round;
+    stroke-dasharray: 10% 33%;
+    stroke-dashoffset: 3;
+    animation: opacityin 5s forwards 1s, dash 10s forwards 2s;
+}
+
+polyline#pi_bondB {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 2mm;
+    stroke-linejoin: bevel;
+    stroke-linecap: round;
+    stroke-dasharray: 10% 33%;
+    stroke-dashoffset: 3;
+    animation: opacityin 5s forwards 2s;
+}
+
+polyline#pi_bondC {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 2mm;
+    stroke-linejoin: bevel;
+    stroke-linecap: round;
+    stroke-dasharray: 10% 33%;
+    stroke-dashoffset: 3;
+    animation: opacityin 5s forwards 3s, dash 10s forwards 4s;
+}
+
+svg g.circles circle#pointA {
+    stroke: white ;
+    stroke-width: 3mm;
+    fill: #030e12;;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: dash 10s forwards, opacityout 3s forwards 5s;
+}
+
+svg g.circles circle#pointB {
+    stroke: white ;
+    stroke-width: 3mm;
+    fill: #030e12;;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: dash 10s forwards, opacityout 3s forwards 5s;
+}
+
+svg g.circles circle#pointC {
+    stroke: white ;
+    stroke-width: 3mm;
+    fill: #030e12;;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: dash 10s forwards, opacityout 3s forwards 5s;
+}
+
+svg g.circles circle#pointD {
+    stroke: white ;
+    stroke-width: 3mm;
+    fill: #030e12;;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: dash 10s forwards, opacityout 3s forwards 5s;
+}
+
+svg g.circles circle#pointE {
+    stroke: white ;
+    stroke-width: 3mm;
+    fill: #030e12;;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: dash 10s forwards, opacityout 3s forwards 5s;
+}
+
+svg g.circles circle#pointF {
+    stroke: white ;
+    stroke-width: 3mm;
+    fill: #030e12;;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: dash 10s forwards, opacityout 3s forwards 5s;
+}
+
+@keyframes opacityin {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        stroke-dasharray: 0 1;
+        stroke: red;
+        opacity: 1;
+    }
+}
+
+@keyframes opacityout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
